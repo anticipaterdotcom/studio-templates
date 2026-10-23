@@ -8,7 +8,7 @@ Vorschau des Originals: https://anticipater.com/solutions/cms-ai/website-erstell
 
 ## So baust du die Website
 
-1. Diese Vorlage liegt im Workspace unter `.devshot/templates/anwalt/` (Manifest `manifest.json`, diese Anleitung, alle Bilder). Falls noch nicht geschehen: alle Dateien aus `manifest.files[]` per `run_command` mit curl an ihren `path` laden (z. B. `curl -fsSL <url> -o <path>`, Ordner vorher anlegen).
+1. Diese Vorlage liegt im Workspace unter `.devshot/templates/anwalt/` (Manifest `manifest.json`, diese Anleitung, alle Bilder). Falls noch nicht geschehen: alle Dateien aus `manifest.files[]` per `download_url` an ihren `path` laden.
 2. Kopiere die Bilder nach `public/images/anwalt/` und referenziere sie von dort (Next.js `<Image>` mit Breite/Höhe oder `fill`).
 3. Baue die Seite als Next.js-App (App Router, TypeScript, Tailwind) mit genau den Sektionen unten in dieser Reihenfolge. Nutze die Texte aus `manifest.copy` als Startinhalt und ersetze Firmenname, Adresse, Preise und Namen durch die Angaben des Nutzers.
 4. Mobile zuerst prüfen (Hero-Headline mit `clamp()`, Raster brechen auf eine Spalte), dann Desktop bis 1440px.
