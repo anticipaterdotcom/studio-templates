@@ -19,4 +19,4 @@ Sechs Branchen-Vorlagen der KI-Website-Landingpage (https://anticipater.com/solu
 - `README.md`: deutsche Bauanleitung für den Agenten (Sektionen in Reihenfolge, Stil, welche Bilder wohin).
 - `*.jpg`: die Bilder der Vorlage.
 
-Die Bilder sind lizenzfreie Motive (Unsplash), wie sie auch die Live-Demos nutzen. Der Agent lädt die Dateien per `download_url` in den Workspace und baut die Website in Next.js nach.
+Die Bilder sind lizenzfreie Motive (Unsplash), wie sie auch die Live-Demos nutzen. Der Agent lädt die Dateien per `run_command` mit curl in den Workspace und baut die Website in Next.js nach.

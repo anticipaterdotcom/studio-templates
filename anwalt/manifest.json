@@ -259,7 +259,7 @@
     }
   ],
   "usage": [
-    "Alle Dateien aus files[] einzeln per download_url an ihren path im Workspace laden (.devshot/templates/anwalt/), keine Archive.",
+    "Alle Dateien aus files[] einzeln per run_command mit curl (curl -fsSL <url> -o <path>) an ihren path im Workspace laden (.devshot/templates/anwalt/), keine Archive.",
     "README.md ist die Bauanleitung: Sektionen in Reihenfolge, Stil, welches Bild wohin. copy enthaelt die echten Texte des Beispiels.",
     "Bilder nach public/images/<slug>/ kopieren und die Website als Next.js-App (App Router, Tailwind) nachbauen; danach an das Unternehmen des Nutzers anpassen."
   ]
