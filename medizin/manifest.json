@@ -1,0 +1,350 @@
+{
+  "version": 1,
+  "id": "cms/medizin",
+  "kind": "cms",
+  "slug": "medizin",
+  "stack": "next",
+  "name": "Praxis-Beispiel",
+  "label": "Arzt & Medizin",
+  "code": "S-03",
+  "typeTag": "Clinical · Privatpraxis",
+  "tagline": "Diagnose mit Disziplin.",
+  "description": "Ruhige Praxis-Website mit Fachgebieten, Team-Editorial und integriertem Termin-Formular.",
+  "pitch": "Klinisch ruhig, mint-akzentuiert. Fachgebiete als Raster, Team-Portraits in Editorial-Qualität, integriertes Termin-Formular ohne Drittanbieter-Zwang.",
+  "result": "Fachgebiete, Team & Terminformular",
+  "accent": "#a8c8c0",
+  "accentSoft": "rgba(168,200,192,0.16)",
+  "theme": {
+    "mode": "dark",
+    "background": "#0a0a0b",
+    "surface": "#111114",
+    "surfaceRaised": "#15151a",
+    "ink": "#f4f4f5",
+    "inkDim": "#a8a8ad",
+    "inkMute": "#6b6b72",
+    "line": "rgba(255,255,255,0.08)",
+    "lineStrong": "rgba(255,255,255,0.16)",
+    "eyebrow": "text-[11px] tracking-[0.32em] uppercase",
+    "container": "max-w-[1440px] px-6 lg:px-10",
+    "sectionPadding": "py-32",
+    "heroHeight": "min-h-[100vh]"
+  },
+  "fonts": {
+    "display": {
+      "family": "Manrope",
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [],
+      "role": "display",
+      "cssClass": "font-display",
+      "letterSpacing": "-0.04em",
+      "usage": "Hero-Headline und Sektionstitel in font-extralight (200), groß und ruhig"
+    },
+    "body": {
+      "family": "Manrope",
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [],
+      "role": "body",
+      "usage": "Fließtext, Labels, Eyebrows (uppercase, 11px, letter-spacing 0.32em)"
+    },
+    "accent": {
+      "family": "Playfair Display",
+      "weights": [
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [
+        400
+      ],
+      "role": "accent",
+      "cssClass": "font-classic",
+      "letterSpacing": "-0.015em",
+      "usage": "Kursive Akzentzeilen („Ein Standard.\", „Disziplin\")"
+    },
+    "source": "public/demo-samples/static/css/local-fonts.css (lokale @font-face, hier nur Familien und Gewichte)"
+  },
+  "sections": [
+    "Clinical Hero",
+    "Fachgebiete",
+    "Team",
+    "Termin"
+  ],
+  "highlights": [
+    "Fachgebiete-Raster",
+    "Team-Editorial",
+    "Termin-Formular inkl."
+  ],
+  "stats": [
+    {
+      "value": "3",
+      "label": "Fachärzte"
+    },
+    {
+      "value": "1",
+      "label": "Patient zur Zeit"
+    },
+    {
+      "value": "24 h",
+      "label": "Antwortfenster"
+    }
+  ],
+  "style": "Klinisch ruhig: schwarzer Grund, mintfarbene Akzente (#a8c8c0) sparsam für Eyebrows, Icons, Linien und Kreise; extraleichte Manrope-Headlines, kursive Playfair-Akzente. Viel Luft, klare Raster, keine Stock-Klischees. Nummerierte Eyebrows „01 · Fachgebiete\" bis „04 · Termin\". Vertrauensleiste unter dem Hero (Zertifiziert ISO 9001 · 2024, 3 Fachärzte, 12.000+ Patienten, ≤ 7 Tage Wartezeit).",
+  "copy": {
+    "hero": {
+      "eyebrow": "Praxis-Beispiel · Karlsruhe Westend",
+      "headline": [
+        "Diagnose",
+        "mit Disziplin"
+      ],
+      "text": "Eine Privatpraxis, in der man weder sucht noch wartet. Drei Fachärzte, modernste Diagnostik, ein Patient zur Zeit.",
+      "cta": "Termin vereinbaren",
+      "secondary": "Fachgebiete ansehen"
+    },
+    "trust": [
+      {
+        "value": "Zertifiziert",
+        "label": "ISO 9001 · 2024"
+      },
+      {
+        "value": "3 Fachärzte",
+        "label": "Doppelte Facharzt-Qualifikation"
+      },
+      {
+        "value": "12.000+",
+        "label": "Behandelte Patienten"
+      },
+      {
+        "value": "≤ 7 Tage",
+        "label": "Durchschn. Wartezeit"
+      }
+    ],
+    "specialties": {
+      "eyebrow": "01 · Fachgebiete",
+      "headline": "Vier Disziplinen. Ein Standard.",
+      "text": "Wir behandeln nicht alles. Wir behandeln, was wir besser können als der Durchschnitt — und überweisen, was nicht zu uns gehört.",
+      "items": [
+        {
+          "n": "01",
+          "title": "Innere Medizin",
+          "text": "Vorsorge, Diagnostik, chronische Erkrankungen."
+        },
+        {
+          "n": "02",
+          "title": "Kardiologie",
+          "text": "Echo, EKG, Belastungstests — vor Ort, ohne Wartezeit."
+        },
+        {
+          "n": "03",
+          "title": "Sportmedizin",
+          "text": "Leistungs- und Reha-Diagnostik, individuelle Programme."
+        },
+        {
+          "n": "04",
+          "title": "Präventionsmedizin",
+          "text": "Premium-Check-up: 5 Stunden, ein Tag, ein Bericht."
+        }
+      ]
+    },
+    "team": {
+      "eyebrow": "02 · Das Team",
+      "headline": "Drei Köpfe.",
+      "members": [
+        {
+          "name": "Fachärztliche Leitung",
+          "role": "Fachärztin · Innere Medizin",
+          "image": "team-faerztliche-leitung.jpg"
+        },
+        {
+          "name": "Ärztliche Leitung",
+          "role": "Kardiologe · Praxisleitung",
+          "image": "team-aerztliche-leitung.jpg"
+        },
+        {
+          "name": "Diagnostik-Team",
+          "role": "Sport- und Präventionsmedizin",
+          "image": "team-diagnostik.jpg"
+        }
+      ]
+    },
+    "rooms": {
+      "eyebrow": "03 · Die Räume",
+      "headline": "Ruhe ist Diagnostik."
+    },
+    "appointment": {
+      "eyebrow": "04 · Termin",
+      "headline": "Heute anfragen. Diese Woche behandelt.",
+      "text": "Wir akzeptieren private, BG- und Selbstzahler. Für gesetzlich Versicherte: kostenfreie Erstberatung am Telefon.",
+      "fields": [
+        "Vorname",
+        "Nachname",
+        "E-Mail",
+        "Anliegen"
+      ],
+      "cta": "Termin anfragen"
+    }
+  },
+  "images": [
+    {
+      "file": "karte-praxis.jpg",
+      "alt": "Moderne Arztpraxis mit heller Behandlungssituation",
+      "role": "card",
+      "section": "Vorschaukarte auf der Landingpage; großes Format des Behandlungsraum-Bilds",
+      "bytes": 265066,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/karte-praxis.jpg",
+      "source": "/demo-samples/local-assets/photo-1666214280391-8ff5bd3c0bf0-q80-w2000-804190ee51.jpg"
+    },
+    {
+      "file": "hero-praxis.jpg",
+      "alt": "Praxis",
+      "role": "hero",
+      "section": "Clinical Hero, vollflächig, dunkler Verlauf von oben und unten",
+      "bytes": 1044452,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/hero-praxis.jpg",
+      "source": "/demo-samples/local-assets/photo-1631815587646-b85a1bb027e1-q85-w2400-56c522998b.jpg"
+    },
+    {
+      "file": "teaser-praxis.jpg",
+      "alt": "Praxis (Teaser-Größe)",
+      "role": "teaser",
+      "section": "Dasselbe Motiv wie der Hero in 2000px; Open-Graph-Bild",
+      "bytes": 752937,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/teaser-praxis.jpg",
+      "source": "/demo-samples/local-assets/photo-1631815587646-b85a1bb027e1-q85-w2000-7ea74699fe.jpg"
+    },
+    {
+      "file": "team-faerztliche-leitung.jpg",
+      "alt": "Fachärztliche Leitung · Fachärztin Innere Medizin",
+      "role": "team",
+      "section": "Team-Sektion, Portrait 1 (3/4)",
+      "bytes": 183530,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/team-faerztliche-leitung.jpg",
+      "source": "/demo-samples/local-assets/photo-1559839734-2b71ea197ec2-q85-w1200-f34e7add64.jpg"
+    },
+    {
+      "file": "team-aerztliche-leitung.jpg",
+      "alt": "Ärztliche Leitung · Kardiologe und Praxisleitung",
+      "role": "team",
+      "section": "Team-Sektion, Portrait 2 (3/4)",
+      "bytes": 200933,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/team-aerztliche-leitung.jpg",
+      "source": "/demo-samples/local-assets/photo-1622253692010-333f2da6031d-q85-w1200-a1c438f522.jpg"
+    },
+    {
+      "file": "team-diagnostik.jpg",
+      "alt": "Diagnostik-Team · Sport- und Präventionsmedizin",
+      "role": "team",
+      "section": "Team-Sektion, Portrait 3 (3/4)",
+      "bytes": 184948,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/team-diagnostik.jpg",
+      "source": "/demo-samples/local-assets/photo-1594824476967-48c8b964273f-q85-w1200-651bb5704c.jpg"
+    },
+    {
+      "file": "raeume-empfang.jpg",
+      "alt": "Empfang",
+      "role": "gallery",
+      "section": "Räume-Sektion, großes Bild links (8 Spalten, 16/10)",
+      "bytes": 321286,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/raeume-empfang.jpg",
+      "source": "/demo-samples/local-assets/photo-1629909613654-28e377c37b09-q85-w2000-4ddd176dce.jpg"
+    },
+    {
+      "file": "raeume-behandlungsraum.jpg",
+      "alt": "Behandlungsraum",
+      "role": "gallery",
+      "section": "Räume-Sektion, Hochformat rechts (4 Spalten, 4/5)",
+      "bytes": 122161,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/raeume-behandlungsraum.jpg",
+      "source": "/demo-samples/local-assets/photo-1666214280391-8ff5bd3c0bf0-q85-w1200-dfbb9b2692.jpg"
+    }
+  ],
+  "preview": {
+    "url": "https://anticipater.com/solutions/cms-ai/website-erstellen-lassen-karlsruhe/demo/medizin"
+  },
+  "readme": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/README.md",
+  "workspaceDir": ".devshot/templates/medizin",
+  "files": [
+    {
+      "path": ".devshot/templates/medizin/manifest.json",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/manifest.json",
+      "type": "application/json",
+      "role": "manifest"
+    },
+    {
+      "path": ".devshot/templates/medizin/README.md",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/README.md",
+      "type": "text/markdown",
+      "role": "readme"
+    },
+    {
+      "path": ".devshot/templates/medizin/karte-praxis.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/karte-praxis.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/medizin/hero-praxis.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/hero-praxis.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/medizin/teaser-praxis.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/teaser-praxis.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/medizin/team-faerztliche-leitung.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/team-faerztliche-leitung.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/medizin/team-aerztliche-leitung.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/team-aerztliche-leitung.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/medizin/team-diagnostik.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/team-diagnostik.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/medizin/raeume-empfang.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/raeume-empfang.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/medizin/raeume-behandlungsraum.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/raeume-behandlungsraum.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    }
+  ],
+  "usage": [
+    "Alle Dateien aus files[] einzeln per download_url an ihren path im Workspace laden (.devshot/templates/medizin/), keine Archive.",
+    "README.md ist die Bauanleitung: Sektionen in Reihenfolge, Stil, welches Bild wohin. copy enthaelt die echten Texte des Beispiels.",
+    "Bilder nach public/images/<slug>/ kopieren und die Website als Next.js-App (App Router, Tailwind) nachbauen; danach an das Unternehmen des Nutzers anpassen."
+  ]
+}

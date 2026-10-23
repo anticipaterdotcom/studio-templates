@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "id": "cms/anwalt",
+  "kind": "cms",
+  "slug": "anwalt",
+  "stack": "next",
+  "name": "Kanzlei-Beispiel",
+  "label": "Anwalt & Recht",
+  "code": "S-04",
+  "typeTag": "Classic · Kanzlei",
+  "tagline": "Argument. Akte. Autorität.",
+  "description": "Souveräner Kanzlei-Auftritt mit Bibliotheksbildwelt, Rechtsgebieten und Partner-Portrait.",
+  "pitch": "Bibliothek statt Stockfotos. Klassische Serifen-Typo, römische Nummerierung für Rechtsgebiete, Auswahl-Akten mit BGH/OLG-Stempel.",
+  "result": "Rechtsgebiete & Partner-Portrait",
+  "accent": "#8a2a2f",
+  "accentSoft": "rgba(138,42,47,0.22)",
+  "theme": {
+    "mode": "dark",
+    "background": "#0a0a0b",
+    "surface": "#111114",
+    "surfaceRaised": "#15151a",
+    "ink": "#f4f4f5",
+    "inkDim": "#a8a8ad",
+    "inkMute": "#6b6b72",
+    "line": "rgba(255,255,255,0.08)",
+    "lineStrong": "rgba(255,255,255,0.16)",
+    "eyebrow": "text-[11px] tracking-[0.32em] uppercase",
+    "container": "max-w-[1440px] px-6 lg:px-10",
+    "sectionPadding": "py-32",
+    "heroHeight": "min-h-[100vh]"
+  },
+  "fonts": {
+    "display": {
+      "family": "Playfair Display",
+      "weights": [
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [
+        400
+      ],
+      "role": "display",
+      "cssClass": "font-classic",
+      "letterSpacing": "-0.015em",
+      "usage": "Alle Headlines (Hero dreizeilig, Sektionstitel 5xl–6xl), Akzentwörter kursiv in Weinrot"
+    },
+    "body": {
+      "family": "Manrope",
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [],
+      "role": "body",
+      "usage": "Fließtext, Labels, Eyebrows (uppercase, 11px, letter-spacing 0.32em)"
+    },
+    "source": "public/demo-samples/static/css/local-fonts.css (lokale @font-face, hier nur Familien und Gewichte)"
+  },
+  "sections": [
+    "Cathedral Hero",
+    "Rechtsgebiete",
+    "Akten-Auswahl",
+    "Partner"
+  ],
+  "highlights": [
+    "Römisch-numerierte Felder",
+    "Auswahl-Verfahren",
+    "Partner-Portrait"
+  ],
+  "stats": [
+    {
+      "value": "1971",
+      "label": "Kanzlei seit"
+    },
+    {
+      "value": "6",
+      "label": "Rechtsgebiete"
+    },
+    {
+      "value": "2",
+      "label": "Partner"
+    }
+  ],
+  "style": "Klassisch-souverän: schwarzer Grund mit weinrotem Akzent (#8a2a2f), im Hero ein radialer Schimmer in Weinrot; Playfair-Display-Serifen für alle Headlines, Manrope für Text. Römische Nummerierung (I–VI) und lateinische Eyebrows „Sectio I · Rechtsgebiete\", „Sectio II · Auswahl von Verfahren\", „Sectio III · Partner\". Vertrauensleiste mit Rankings (Best Lawyers · 2024, JUVE · Top 50 Wirtschaftskanzleien, Handelsblatt · Beste Anwälte, Legal 500 · Empfohlen).",
+  "copy": {
+    "hero": {
+      "eyebrow": "Kanzlei-Beispiel · est. 1971",
+      "headline": [
+        "Argument.",
+        "Akte.",
+        "Autorität."
+      ],
+      "text": "Eine Karlsruher Wirtschaftskanzlei in der dritten Generation. Ein erfahrenes Team, ein gemeinsamer Standard: gewinnen oder ehrlich abraten.",
+      "cta": "Vertrauliche Beratung",
+      "secondary": "Rechtsgebiete"
+    },
+    "rankings": [
+      "Best Lawyers · 2024",
+      "JUVE · Top 50 Wirtschaftskanzleien",
+      "Handelsblatt · Beste Anwälte",
+      "Legal 500 · Empfohlen"
+    ],
+    "areas": {
+      "eyebrow": "Sectio I · Rechtsgebiete",
+      "headline": "Rechtsgebiete. Eine Schreibtischlampe.",
+      "text": "Wir konzentrieren uns auf das, worin wir besser sind als spezialisierte Boutiquen — und ehrlicher als die großen Wirtschaftskanzleien.",
+      "items": [
+        {
+          "n": "I",
+          "title": "Wirtschaftsrecht",
+          "text": "M&A, Gesellschaftsrecht, Unternehmensnachfolge."
+        },
+        {
+          "n": "II",
+          "title": "Arbeitsrecht",
+          "text": "Beratung von Geschäftsführern und Führungskräften."
+        },
+        {
+          "n": "III",
+          "title": "Vertragsrecht",
+          "text": "Vertragsgestaltung, Verhandlung, Streitlösung."
+        },
+        {
+          "n": "IV",
+          "title": "Strafrecht",
+          "text": "Wirtschaftsstrafrecht, Steuerstrafrecht, Compliance."
+        },
+        {
+          "n": "V",
+          "title": "IT- und Datenschutzrecht",
+          "text": "DSGVO-Beratung, Cyber-Vorfälle, IT-Verträge."
+        },
+        {
+          "n": "VI",
+          "title": "Mediation",
+          "text": "Außergerichtliche Streitbeilegung mit Diskretion."
+        }
+      ]
+    },
+    "cases": {
+      "eyebrow": "Sectio II · Auswahl von Verfahren",
+      "headline": "Ausgewählte Akten.",
+      "items": [
+        {
+          "code": "BGH · 2024",
+          "title": "Erfolgreiche Anfechtung einer Konzernspaltung",
+          "blurb": "Mandantenseite eines mittelständischen Familienunternehmens. Vergleich vor BGH."
+        },
+        {
+          "code": "OLG Karlsruhe · 2023",
+          "title": "Compliance-Verfahren — Wirtschaftsstrafrecht",
+          "blurb": "Vollständige Einstellung gegen Geldauflage nach 22 Monaten Verfahren."
+        },
+        {
+          "code": "LAG · 2023",
+          "title": "Vorstandsabberufung — angefochten",
+          "blurb": "Wiedereinsetzung des Vorstandsmitglieds, Abfindung im 8-stelligen Bereich."
+        }
+      ]
+    },
+    "partner": {
+      "eyebrow": "Sectio III · Partner",
+      "headline": "Partner-Portrait. Mandat.",
+      "text": "Geschäftsführender Partner. Promotion in Heidelberg, LL.M. Cambridge. Zwanzig Jahre Strafverteidigung in wirtschaftsrechtlichen Großverfahren."
+    },
+    "contact": {
+      "headline": "Schreiben Sie uns. Wir antworten am gleichen Tag.",
+      "text": "Die erste Beratung ist vertraulich und unverbindlich. Wir prüfen Ihre Akte und sagen Ihnen offen, ob wir der richtige Partner für Sie sind.",
+      "cta": "kanzlei@beispiel-kanzlei.de (E-Mail-Link, Adresse durch die echte ersetzen)"
+    }
+  },
+  "images": [
+    {
+      "file": "karte-bibliothek.jpg",
+      "alt": "Bibliothek einer Kanzlei mit hohen Regalen",
+      "role": "card",
+      "section": "Vorschaukarte auf der Landingpage; gleiches Motiv wie der Hero in anderer Kompression",
+      "bytes": 740335,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/karte-bibliothek.jpg",
+      "source": "/demo-samples/local-assets/photo-1521587760476-6c12a4b040da-q80-w2000-305b9c2ab8.jpg"
+    },
+    {
+      "file": "hero-bibliothek.jpg",
+      "alt": "Bibliothek",
+      "role": "hero",
+      "section": "Cathedral Hero, vollflächig, Verlauf von links plus weinroter Radialschimmer",
+      "bytes": 1122901,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/hero-bibliothek.jpg",
+      "source": "/demo-samples/local-assets/photo-1521587760476-6c12a4b040da-q85-w2400-139f3a3188.jpg"
+    },
+    {
+      "file": "teaser-kanzlei.jpg",
+      "alt": "Kanzlei-Arbeitsplatz mit Akten",
+      "role": "teaser",
+      "section": "Teaser der Landingpage; eignet sich als Bild für die Akten-Sektion oder als Open-Graph-Bild",
+      "bytes": 365808,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/teaser-kanzlei.jpg",
+      "source": "/demo-samples/local-assets/photo-1589994965851-a8f479c573a9-q85-w2000-7f19f39680.jpg"
+    },
+    {
+      "file": "partner-portrait.jpg",
+      "alt": "Partner-Portrait",
+      "role": "story",
+      "section": "Partner-Sektion, Hochformat 3/4 links (5 Spalten) neben dem Text",
+      "bytes": 308230,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/partner-portrait.jpg",
+      "source": "/demo-samples/local-assets/photo-1573496359142-b8d87734a5a2-q85-w1200-f9600592af.jpg"
+    }
+  ],
+  "preview": {
+    "url": "https://anticipater.com/solutions/cms-ai/website-erstellen-lassen-karlsruhe/demo/anwalt"
+  },
+  "readme": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/README.md",
+  "workspaceDir": ".devshot/templates/anwalt",
+  "files": [
+    {
+      "path": ".devshot/templates/anwalt/manifest.json",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/manifest.json",
+      "type": "application/json",
+      "role": "manifest"
+    },
+    {
+      "path": ".devshot/templates/anwalt/README.md",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/README.md",
+      "type": "text/markdown",
+      "role": "readme"
+    },
+    {
+      "path": ".devshot/templates/anwalt/karte-bibliothek.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/karte-bibliothek.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/anwalt/hero-bibliothek.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/hero-bibliothek.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/anwalt/teaser-kanzlei.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/teaser-kanzlei.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/anwalt/partner-portrait.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/partner-portrait.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    }
+  ],
+  "usage": [
+    "Alle Dateien aus files[] einzeln per download_url an ihren path im Workspace laden (.devshot/templates/anwalt/), keine Archive.",
+    "README.md ist die Bauanleitung: Sektionen in Reihenfolge, Stil, welches Bild wohin. copy enthaelt die echten Texte des Beispiels.",
+    "Bilder nach public/images/<slug>/ kopieren und die Website als Next.js-App (App Router, Tailwind) nachbauen; danach an das Unternehmen des Nutzers anpassen."
+  ]
+}

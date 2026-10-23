@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "cms/gastronomie",
+      "slug": "gastronomie",
+      "name": "Gastronomie-Beispiel",
+      "typeTag": "Editorial · Restaurant",
+      "manifest": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/manifest.json",
+      "readme": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/README.md",
+      "preview": "https://anticipater.com/solutions/cms-ai/website-erstellen-lassen-karlsruhe/demo/gastronomie",
+      "images": 7
+    },
+    {
+      "id": "cms/handwerk",
+      "slug": "handwerk",
+      "name": "Handwerks-Beispiel",
+      "typeTag": "Industrial · Manufaktur",
+      "manifest": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/manifest.json",
+      "readme": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/README.md",
+      "preview": "https://anticipater.com/solutions/cms-ai/website-erstellen-lassen-karlsruhe/demo/handwerk",
+      "images": 7
+    },
+    {
+      "id": "cms/medizin",
+      "slug": "medizin",
+      "name": "Praxis-Beispiel",
+      "typeTag": "Clinical · Privatpraxis",
+      "manifest": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/manifest.json",
+      "readme": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/medizin/README.md",
+      "preview": "https://anticipater.com/solutions/cms-ai/website-erstellen-lassen-karlsruhe/demo/medizin",
+      "images": 8
+    },
+    {
+      "id": "cms/anwalt",
+      "slug": "anwalt",
+      "name": "Kanzlei-Beispiel",
+      "typeTag": "Classic · Kanzlei",
+      "manifest": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/manifest.json",
+      "readme": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/anwalt/README.md",
+      "preview": "https://anticipater.com/solutions/cms-ai/website-erstellen-lassen-karlsruhe/demo/anwalt",
+      "images": 4
+    },
+    {
+      "id": "cms/immobilien",
+      "slug": "immobilien",
+      "name": "Immobilien-Beispiel",
+      "typeTag": "Architectural · Premium",
+      "manifest": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/manifest.json",
+      "readme": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/README.md",
+      "preview": "https://anticipater.com/solutions/cms-ai/website-erstellen-lassen-karlsruhe/demo/immobilien",
+      "images": 6
+    },
+    {
+      "id": "cms/beauty",
+      "slug": "beauty",
+      "name": "Salon-Beispiel",
+      "typeTag": "Editorial · Salon",
+      "manifest": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/manifest.json",
+      "readme": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/README.md",
+      "preview": "https://anticipater.com/solutions/cms-ai/website-erstellen-lassen-karlsruhe/demo/beauty",
+      "images": 12
+    }
+  ]
+}

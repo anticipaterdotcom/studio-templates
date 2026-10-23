@@ -1,0 +1,339 @@
+{
+  "version": 1,
+  "id": "cms/immobilien",
+  "kind": "cms",
+  "slug": "immobilien",
+  "stack": "next",
+  "name": "Immobilien-Beispiel",
+  "label": "Immobilien",
+  "code": "S-05",
+  "typeTag": "Architectural · Premium",
+  "tagline": "Architektur als Argument.",
+  "description": "Premium-Plattform für Makler, Bauträger und Verwaltungen mit Objekt-Switcher und Standort-Bühne.",
+  "pitch": "Architektur-Magazin. Interaktiver Objekt-Switcher mit AnimatePresence, Off-Market-Hinweis, kartografische Standort-Visualisierung.",
+  "result": "Objekt-Switcher & Standortkarte",
+  "accent": "#d6d6d6",
+  "accentSoft": "rgba(214,214,214,0.15)",
+  "theme": {
+    "mode": "dark",
+    "background": "#0a0a0b",
+    "surface": "#111114",
+    "surfaceRaised": "#15151a",
+    "ink": "#f4f4f5",
+    "inkDim": "#a8a8ad",
+    "inkMute": "#6b6b72",
+    "line": "rgba(255,255,255,0.08)",
+    "lineStrong": "rgba(255,255,255,0.16)",
+    "eyebrow": "text-[11px] tracking-[0.32em] uppercase",
+    "container": "max-w-[1440px] px-6 lg:px-10",
+    "sectionPadding": "py-32",
+    "heroHeight": "min-h-[100vh]"
+  },
+  "fonts": {
+    "display": {
+      "family": "Manrope",
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [],
+      "role": "display",
+      "cssClass": "font-display",
+      "letterSpacing": "-0.04em",
+      "usage": "Hero-Headline (clamp(56px,9vw,148px), leading 0.92) und Sektionstitel in font-extralight"
+    },
+    "body": {
+      "family": "Manrope",
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [],
+      "role": "body",
+      "usage": "Fließtext, Labels, Eyebrows (uppercase, 11px, letter-spacing 0.32em)"
+    },
+    "accent": {
+      "family": "Playfair Display",
+      "weights": [
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [
+        400
+      ],
+      "role": "accent",
+      "cssClass": "font-classic",
+      "letterSpacing": "-0.015em",
+      "usage": "Kursive Akzentzeilen („Argument\", „Ein Standard.\", „zwischen Schloss und Rhein.\")"
+    },
+    "source": "public/demo-samples/static/css/local-fonts.css (lokale @font-face, hier nur Familien und Gewichte)"
+  },
+  "sections": [
+    "Architectural Hero",
+    "Objekte",
+    "Services",
+    "Standort"
+  ],
+  "highlights": [
+    "Interaktive Objekt-Tabs",
+    "Off-Market-Netzwerk",
+    "Standort-Karte"
+  ],
+  "stats": [
+    {
+      "value": "3",
+      "label": "Objektklassen"
+    },
+    {
+      "value": "Off",
+      "label": "Market-Modus"
+    },
+    {
+      "value": "KA",
+      "label": "Fokusgebiet"
+    }
+  ],
+  "style": "Architektur-Magazin in Silbergrau: schwarzer Grund, Akzent ist helles Silber (#d6d6d6) statt einer Buntfarbe, dünne weiße Linien, extraleichte Manrope-Headlines mit kursiven Playfair-Einschüben. Bilder mit hartem Kino-Look. Eyebrows „Kollektion · 2025\", „Service · 02\", „Standorte · 03\". Kennzahlen-Leiste unter dem Hero (€ 1,2 Mrd. vermitteltes Volumen, 186 Premium-Transaktionen, 21 Jahre am Markt, 4,9/5 Bewertungsschnitt).",
+  "copy": {
+    "hero": {
+      "eyebrow": "Immobilien-Beispiel · Immobilien · Karlsruhe",
+      "headline": [
+        "Architektur",
+        "als Argument"
+      ],
+      "text": "Wir vermitteln keine Quadratmeter. Wir kuratieren Lebensräume — für Bauherren, Eigentümer und Sammler von Lage.",
+      "cta": "Aktuelle Objekte",
+      "secondary": "Service-Spektrum"
+    },
+    "stats": [
+      {
+        "value": "€ 1,2 Mrd.",
+        "label": "Vermitteltes Volumen"
+      },
+      {
+        "value": "186",
+        "label": "Premium-Transaktionen"
+      },
+      {
+        "value": "21",
+        "label": "Jahre am Markt"
+      },
+      {
+        "value": "4,9/5",
+        "label": "Bewertungsschnitt"
+      }
+    ],
+    "objects": {
+      "eyebrow": "Kollektion · 2025",
+      "headline": "Vier Adressen. Ein Standard.",
+      "note": "Off-Market-Hinweis: weitere Objekte nur auf Anfrage.",
+      "items": [
+        {
+          "id": "01",
+          "title": "Villa am Hangweg",
+          "location": "Karlsruhe · Durlach",
+          "price": "€ 4.250.000",
+          "size": "412 m²",
+          "image": "objekt-01-villa-am-hangweg.jpg"
+        },
+        {
+          "id": "02",
+          "title": "Penthouse Schloss-Carré",
+          "location": "Karlsruhe · Innenstadt",
+          "price": "€ 2.890.000",
+          "size": "238 m²",
+          "image": "objekt-02-penthouse-schloss-carre.jpg"
+        },
+        {
+          "id": "03",
+          "title": "Glaswürfel am Waldrand",
+          "location": "Baden-Baden · Lichtental",
+          "price": "€ 5.690.000",
+          "size": "520 m²",
+          "image": "objekt-03-glaswuerfel-am-waldrand.jpg"
+        },
+        {
+          "id": "04",
+          "title": "Stadtvilla im Bauhaus-Stil",
+          "location": "Karlsruhe · Weststadt",
+          "price": "€ 3.150.000",
+          "size": "346 m²",
+          "image": "objekt-04-stadtvilla-bauhaus.jpg"
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Service · 02",
+      "headline": "Vom Exposé bis zur Übergabe.",
+      "items": [
+        {
+          "title": "Wertgutachten",
+          "text": "Marktwertgutachten nach ImmoWertV — gerichtsfest und bankreif."
+        },
+        {
+          "title": "Off-Market",
+          "text": "Ein Netzwerk aus über 800 Käufern für diskrete Transaktionen."
+        },
+        {
+          "title": "Notar & Abwicklung",
+          "text": "Ein Ansprechpartner. Vom Inserat bis zum Schlüssel — 12 Wochen."
+        }
+      ]
+    },
+    "locations": {
+      "eyebrow": "Standorte · 03",
+      "headline": "Wir kennen jede Straße zwischen Schloss und Rhein.",
+      "pins": [
+        {
+          "label": "Durlach",
+          "top": "32%",
+          "left": "28%"
+        },
+        {
+          "label": "Innenstadt",
+          "top": "48%",
+          "left": "52%"
+        },
+        {
+          "label": "Weststadt",
+          "top": "62%",
+          "left": "38%"
+        },
+        {
+          "label": "Baden-Baden",
+          "top": "26%",
+          "left": "70%"
+        }
+      ]
+    }
+  },
+  "images": [
+    {
+      "file": "hero-villa.jpg",
+      "alt": "Moderne Villa als Premium-Immobilie",
+      "role": "hero",
+      "section": "Architectural Hero, vollflächig; zugleich die Vorschaukarte der Landingpage",
+      "bytes": 618410,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/hero-villa.jpg",
+      "source": "/demo-samples/local-assets/photo-1600596542815-ffad4c1539a9-q85-w2400-f044f1ddc1.jpg"
+    },
+    {
+      "file": "objekt-01-villa-am-hangweg.jpg",
+      "alt": "Villa am Hangweg, Karlsruhe · Durlach",
+      "role": "gallery",
+      "section": "Objekt-Switcher, Tab 01",
+      "bytes": 660318,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/objekt-01-villa-am-hangweg.jpg",
+      "source": "/demo-samples/local-assets/photo-1600585154340-be6161a56a0c-q85-w2000-661d7f63cc.jpg"
+    },
+    {
+      "file": "objekt-02-penthouse-schloss-carre.jpg",
+      "alt": "Penthouse Schloss-Carré, Karlsruhe · Innenstadt",
+      "role": "gallery",
+      "section": "Objekt-Switcher, Tab 02",
+      "bytes": 869258,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/objekt-02-penthouse-schloss-carre.jpg",
+      "source": "/demo-samples/local-assets/photo-1545324418-cc1a3fa10c00-q85-w2000-e90ce6c660.jpg"
+    },
+    {
+      "file": "objekt-03-glaswuerfel-am-waldrand.jpg",
+      "alt": "Glaswürfel am Waldrand, Baden-Baden · Lichtental",
+      "role": "gallery",
+      "section": "Objekt-Switcher, Tab 03; zugleich das Teaser-Bild der Landingpage",
+      "bytes": 362434,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/objekt-03-glaswuerfel-am-waldrand.jpg",
+      "source": "/demo-samples/local-assets/photo-1613977257363-707ba9348227-q85-w2000-55e86c7dff.jpg"
+    },
+    {
+      "file": "objekt-04-stadtvilla-bauhaus.jpg",
+      "alt": "Stadtvilla im Bauhaus-Stil, Karlsruhe · Weststadt",
+      "role": "gallery",
+      "section": "Objekt-Switcher, Tab 04",
+      "bytes": 753326,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/objekt-04-stadtvilla-bauhaus.jpg",
+      "source": "/demo-samples/local-assets/photo-1564013799919-ab600027ffc6-q85-w2000-3f1d944631.jpg"
+    },
+    {
+      "file": "standort-karlsruhe-karte.jpg",
+      "alt": "Karlsruhe Karte",
+      "role": "map",
+      "section": "Standort-Sektion, Kartenbild 2/1 mit vier Pins (Durlach, Innenstadt, Weststadt, Baden-Baden), halbtransparent abgedunkelt",
+      "bytes": 835130,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/standort-karlsruhe-karte.jpg",
+      "source": "/demo-samples/local-assets/photo-1545194445-dddb8f4487c6-q85-w2400-e7be9e7ee6.jpg"
+    }
+  ],
+  "preview": {
+    "url": "https://anticipater.com/solutions/cms-ai/website-erstellen-lassen-karlsruhe/demo/immobilien"
+  },
+  "readme": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/README.md",
+  "workspaceDir": ".devshot/templates/immobilien",
+  "files": [
+    {
+      "path": ".devshot/templates/immobilien/manifest.json",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/manifest.json",
+      "type": "application/json",
+      "role": "manifest"
+    },
+    {
+      "path": ".devshot/templates/immobilien/README.md",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/README.md",
+      "type": "text/markdown",
+      "role": "readme"
+    },
+    {
+      "path": ".devshot/templates/immobilien/hero-villa.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/hero-villa.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/immobilien/objekt-01-villa-am-hangweg.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/objekt-01-villa-am-hangweg.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/immobilien/objekt-02-penthouse-schloss-carre.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/objekt-02-penthouse-schloss-carre.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/immobilien/objekt-03-glaswuerfel-am-waldrand.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/objekt-03-glaswuerfel-am-waldrand.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/immobilien/objekt-04-stadtvilla-bauhaus.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/objekt-04-stadtvilla-bauhaus.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/immobilien/standort-karlsruhe-karte.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/immobilien/standort-karlsruhe-karte.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    }
+  ],
+  "usage": [
+    "Alle Dateien aus files[] einzeln per download_url an ihren path im Workspace laden (.devshot/templates/immobilien/), keine Archive.",
+    "README.md ist die Bauanleitung: Sektionen in Reihenfolge, Stil, welches Bild wohin. copy enthaelt die echten Texte des Beispiels.",
+    "Bilder nach public/images/<slug>/ kopieren und die Website als Next.js-App (App Router, Tailwind) nachbauen; danach an das Unternehmen des Nutzers anpassen."
+  ]
+}

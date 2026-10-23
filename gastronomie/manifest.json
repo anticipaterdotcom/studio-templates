@@ -1,0 +1,313 @@
+{
+  "version": 1,
+  "id": "cms/gastronomie",
+  "kind": "cms",
+  "slug": "gastronomie",
+  "stack": "next",
+  "name": "Gastronomie-Beispiel",
+  "label": "Gastronomie",
+  "code": "S-01",
+  "typeTag": "Editorial · Restaurant",
+  "tagline": "Tafel, Terroir, Theater.",
+  "description": "Ein Restaurantauftritt mit Speisekarte als Hauptdarsteller, Reservierungs-CTA und Atmosphäre-Galerie.",
+  "pitch": "Editorial-Layout im Stil eines Sterne-Magazins. Speisekarte als Hauptdarsteller, Reservierungsbutton immer in Reichweite, Atmosphäre-Galerie als Sehnsuchts-Trigger.",
+  "result": "Speisekarte, Reservierung & Atmosphäre",
+  "accent": "#c9a45a",
+  "accentSoft": "rgba(201,164,90,0.18)",
+  "theme": {
+    "mode": "dark",
+    "background": "#0a0a0b",
+    "surface": "#111114",
+    "surfaceRaised": "#15151a",
+    "ink": "#f4f4f5",
+    "inkDim": "#a8a8ad",
+    "inkMute": "#6b6b72",
+    "line": "rgba(255,255,255,0.08)",
+    "lineStrong": "rgba(255,255,255,0.16)",
+    "eyebrow": "text-[11px] tracking-[0.32em] uppercase",
+    "container": "max-w-[1440px] px-6 lg:px-10",
+    "sectionPadding": "py-32",
+    "heroHeight": "min-h-[100vh]"
+  },
+  "fonts": {
+    "display": {
+      "family": "Cormorant Garamond",
+      "weights": [
+        300,
+        400,
+        500,
+        600,
+        700
+      ],
+      "italic": [
+        300,
+        400
+      ],
+      "role": "display",
+      "cssClass": "font-editorial",
+      "letterSpacing": "-0.01em",
+      "usage": "Hero-Headline (clamp(64px,10vw,168px), font-light, leading 0.9), Sektionstitel, Zahlen; Akzentwörter italic in der Akzentfarbe"
+    },
+    "body": {
+      "family": "Manrope",
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [],
+      "role": "body",
+      "usage": "Fließtext, Labels, Eyebrows (uppercase, 11px, letter-spacing 0.32em)"
+    },
+    "source": "public/demo-samples/static/css/local-fonts.css (lokale @font-face, hier nur Familien und Gewichte)"
+  },
+  "sections": [
+    "Cinematic Hero",
+    "Restaurant-Story",
+    "Saisonale Karte",
+    "Atmosphäre-Galerie"
+  ],
+  "highlights": [
+    "Animierte Karten-Sektion",
+    "Reservierungs-Modul",
+    "Chef-Story & Awards"
+  ],
+  "stats": [
+    {
+      "value": "18-23",
+      "label": "Uhr Reservierung"
+    },
+    {
+      "value": "42",
+      "label": "Plätze"
+    },
+    {
+      "value": "1.200",
+      "label": "Weinetiketten"
+    }
+  ],
+  "style": "Dunkles Editorial wie ein Sterne-Magazin: schwarzer Grund, viel Weißraum, große leichte Serifen (Cormorant Garamond), goldene Akzentfarbe nur für Eyebrows, Linien, Preise und Akzentwörter. Bilder mit Kino-Look (leicht entsättigt, dunkle Verläufe von unten). Sektionen mit nummerierten Eyebrows „N° 01 · Restaurant\" bis „N° 04 · Le chef\". Reservierungs-Button immer sichtbar (Hero und Abschluss-CTA).",
+  "copy": {
+    "hero": {
+      "eyebrow": "Restaurant · Karlsruhe · Beispiel",
+      "headline": [
+        "Gastronomie",
+        "Beispiel."
+      ],
+      "text": "Ein Esszimmer in der Karlsruher Weststadt — französische Klassik, deutsche Disziplin, badisches Terroir.",
+      "info": [
+        "Heute Abend · 18 — 23 Uhr",
+        "Erbprinzenstraße 12, Karlsruhe"
+      ],
+      "cta": "Reservierung anfragen"
+    },
+    "awards": [
+      {
+        "value": "★★",
+        "label": "Guide Michelin"
+      },
+      {
+        "value": "17,5",
+        "label": "Gault & Millau"
+      },
+      {
+        "value": "92 pt",
+        "label": "Falstaff"
+      },
+      {
+        "value": "2024",
+        "label": "Best of Baden"
+      }
+    ],
+    "story": {
+      "eyebrow": "N° 01 · Restaurant",
+      "headline": "Ein Teller ist eine Behauptung.",
+      "text": [
+        "Dieses Gastronomie-Beispiel ist ein Haus, kein Konzept. Wir kochen, was im Markt ist — Schwarzwald-Wild, Bodensee-Felchen, badische Erde. Die Sauce ist Religion, das Brot hausgemacht, der Wein direkt vom Winzer.",
+        "Unser Küchenteam verbindet französische Klassik, präzises Handwerk und badisches Terroir. Heute steht diese Haltung jeden Abend am Pass."
+      ]
+    },
+    "menu": {
+      "eyebrow": "N° 02 · La carte",
+      "headline": "Die Karte, Dezember",
+      "text": "Saisonal, regional, kompromisslos. Vegetarisch und vegan auf Anfrage vom Chef persönlich vorbereitet.",
+      "items": [
+        {
+          "course": "Vorspeise",
+          "name": "Schwarzwald-Forelle",
+          "desc": "kalt geräuchert, Apfel-Beurre-Blanc, Wildkresse",
+          "price": "24"
+        },
+        {
+          "course": "Hauptgang",
+          "name": "Wagyu — sieben Tage gereift",
+          "desc": "Markpüree, fermentierter schwarzer Knoblauch, Trüffel-Jus",
+          "price": "78"
+        },
+        {
+          "course": "Hauptgang",
+          "name": "Kabeljau · Vadouvan",
+          "desc": "Karotten in drei Texturen, indische Beurre-Blanc",
+          "price": "48"
+        },
+        {
+          "course": "Dessert",
+          "name": "Tonkabohne · Quitte",
+          "desc": "Sablé bretonne, Crème légère, kandierte Pinie",
+          "price": "18"
+        }
+      ],
+      "cta": "Komplette Karte herunterladen"
+    },
+    "gallery": {
+      "eyebrow": "N° 03 · L'atmosphère",
+      "headline": "Drei Räume. Eine Bühne."
+    },
+    "chef": {
+      "eyebrow": "N° 04 · Le chef",
+      "headline": "Küchenteam.",
+      "text": "Französische Klassik, präzises Handwerk und badisches Terroir. Das Team kocht keine Geschichten — es erzählt mit dem, was am Morgen geliefert wird.",
+      "quote": "« Ein Gast bleibt nicht für das Essen. Er bleibt für den Moment, in dem er es vergisst. »"
+    },
+    "reserve": {
+      "eyebrow": "Réservez",
+      "headline": "Einen Platz am Pass.",
+      "cta": "Tisch reservieren"
+    }
+  },
+  "images": [
+    {
+      "file": "karte-restaurant.jpg",
+      "alt": "Premium-Restaurant mit gedeckten Tischen",
+      "role": "card",
+      "section": "Vorschaukarte auf der Landingpage (nicht Teil der Seite); eignet sich als zweites Hero- oder Story-Bild",
+      "bytes": 596338,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/karte-restaurant.jpg",
+      "source": "/demo-samples/local-assets/photo-1517248135467-4c7edcad34c4-q80-w2000-5a2a720bc7.jpg"
+    },
+    {
+      "file": "hero-restaurantsaal.jpg",
+      "alt": "Restaurantsaal",
+      "role": "hero",
+      "section": "Cinematic Hero, vollflächig (100vh), Verlauf von unten nach oben",
+      "bytes": 699083,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/hero-restaurantsaal.jpg",
+      "source": "/demo-samples/local-assets/photo-1414235077428-338989a2e8c0-q85-w2400-09a94a7877.jpg"
+    },
+    {
+      "file": "teaser-restaurantsaal.jpg",
+      "alt": "Restaurantsaal (Teaser-Größe)",
+      "role": "teaser",
+      "section": "Dasselbe Motiv wie der Hero in 2000px; für Open-Graph-Bild oder Übersichtskarte",
+      "bytes": 480809,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/teaser-restaurantsaal.jpg",
+      "source": "/demo-samples/local-assets/photo-1414235077428-338989a2e8c0-q85-w2000-239743918c.jpg"
+    },
+    {
+      "file": "galerie-speisesaal.jpg",
+      "alt": "Speisesaal",
+      "role": "gallery",
+      "section": "Atmosphäre-Galerie, großes Bild links (4/5), Eyebrow „Salon principal\", Titel „42 Plätze\"",
+      "bytes": 485651,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/galerie-speisesaal.jpg",
+      "source": "/demo-samples/local-assets/photo-1559339352-11d035aa65de-q85-w1600-15fe05468d.jpg"
+    },
+    {
+      "file": "galerie-weinkeller.jpg",
+      "alt": "Weinkeller",
+      "role": "gallery",
+      "section": "Atmosphäre-Galerie, rechts oben (4/3), Eyebrow „Cave à vins\", Titel „1.200 Etiketten\"",
+      "bytes": 175983,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/galerie-weinkeller.jpg",
+      "source": "/demo-samples/local-assets/photo-1510812431401-41d2bd2722f3-q85-w1600-089c072c42.jpg"
+    },
+    {
+      "file": "galerie-chefs-table.jpg",
+      "alt": "Chef's Table",
+      "role": "gallery",
+      "section": "Atmosphäre-Galerie, rechts unten (4/3), Eyebrow „Chef's Table\", Titel „8 Plätze\"",
+      "bytes": 1064472,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/galerie-chefs-table.jpg",
+      "source": "/demo-samples/local-assets/photo-1551218808-94e220e084d2-q85-w1600-adc055b1cb.jpg"
+    },
+    {
+      "file": "chef-kuechenteam.jpg",
+      "alt": "Küchenteam",
+      "role": "story",
+      "section": "Chef-Sektion „N° 04 · Le chef\", Hochformat 4/5 links neben Text und Zitat",
+      "bytes": 473585,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/chef-kuechenteam.jpg",
+      "source": "/demo-samples/local-assets/photo-1577219491135-ce391730fb2c-q85-w1400-d18dbc2da6.jpg"
+    }
+  ],
+  "preview": {
+    "url": "https://anticipater.com/solutions/cms-ai/website-erstellen-lassen-karlsruhe/demo/gastronomie"
+  },
+  "readme": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/README.md",
+  "workspaceDir": ".devshot/templates/gastronomie",
+  "files": [
+    {
+      "path": ".devshot/templates/gastronomie/manifest.json",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/manifest.json",
+      "type": "application/json",
+      "role": "manifest"
+    },
+    {
+      "path": ".devshot/templates/gastronomie/README.md",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/README.md",
+      "type": "text/markdown",
+      "role": "readme"
+    },
+    {
+      "path": ".devshot/templates/gastronomie/karte-restaurant.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/karte-restaurant.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/gastronomie/hero-restaurantsaal.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/hero-restaurantsaal.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/gastronomie/teaser-restaurantsaal.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/teaser-restaurantsaal.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/gastronomie/galerie-speisesaal.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/galerie-speisesaal.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/gastronomie/galerie-weinkeller.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/galerie-weinkeller.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/gastronomie/galerie-chefs-table.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/galerie-chefs-table.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/gastronomie/chef-kuechenteam.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/gastronomie/chef-kuechenteam.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    }
+  ],
+  "usage": [
+    "Alle Dateien aus files[] einzeln per download_url an ihren path im Workspace laden (.devshot/templates/gastronomie/), keine Archive.",
+    "README.md ist die Bauanleitung: Sektionen in Reihenfolge, Stil, welches Bild wohin. copy enthaelt die echten Texte des Beispiels.",
+    "Bilder nach public/images/<slug>/ kopieren und die Website als Next.js-App (App Router, Tailwind) nachbauen; danach an das Unternehmen des Nutzers anpassen."
+  ]
+}

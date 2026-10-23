@@ -1,0 +1,369 @@
+{
+  "version": 1,
+  "id": "cms/beauty",
+  "kind": "cms",
+  "slug": "beauty",
+  "stack": "next",
+  "name": "Salon-Beispiel",
+  "label": "Friseur & Beauty",
+  "code": "S-06",
+  "typeTag": "Editorial · Salon",
+  "tagline": "Editorial. Empirisch. Eigenwillig.",
+  "description": "Magazin-würdiger Salon-Auftritt mit Split-Hero, Service-Cards und Lookbook-Galerie.",
+  "pitch": "Split-Hero im Vogue-Stil. Lookbook-Galerie als Story, Press-Strip mit Magazinen, Service-Cards im Editorial-Format mit Großbildern.",
+  "result": "Split-Hero, Services & Lookbook",
+  "accent": "#d4a4a4",
+  "accentSoft": "rgba(212,164,164,0.18)",
+  "theme": {
+    "mode": "dark",
+    "background": "#0a0a0b",
+    "surface": "#111114",
+    "surfaceRaised": "#15151a",
+    "ink": "#f4f4f5",
+    "inkDim": "#a8a8ad",
+    "inkMute": "#6b6b72",
+    "line": "rgba(255,255,255,0.08)",
+    "lineStrong": "rgba(255,255,255,0.16)",
+    "eyebrow": "text-[11px] tracking-[0.32em] uppercase",
+    "container": "max-w-[1440px] px-6 lg:px-10",
+    "sectionPadding": "py-32",
+    "heroHeight": "min-h-[100vh]"
+  },
+  "fonts": {
+    "display": {
+      "family": "Cormorant Garamond",
+      "weights": [
+        300,
+        400,
+        500,
+        600,
+        700
+      ],
+      "italic": [
+        300,
+        400
+      ],
+      "role": "display",
+      "cssClass": "font-editorial",
+      "letterSpacing": "-0.01em",
+      "usage": "Hero-Headline dreizeilig (font-light), Sektionstitel teils italic („Unzählige Looks.\"), Zitat"
+    },
+    "body": {
+      "family": "Manrope",
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [],
+      "role": "body",
+      "usage": "Fließtext, Service-Beschreibungen; Look-Nummern und kleine Labels in Monospace (ui-monospace)"
+    },
+    "source": "public/demo-samples/static/css/local-fonts.css (lokale @font-face, hier nur Familien und Gewichte)"
+  },
+  "sections": [
+    "Editorial Hero",
+    "Services",
+    "Lookbook",
+    "Booking"
+  ],
+  "highlights": [
+    "Split-Hero",
+    "Lookbook-Galerie",
+    "Press-Strip"
+  ],
+  "stats": [
+    {
+      "value": "2017",
+      "label": "Studio seit"
+    },
+    {
+      "value": "6",
+      "label": "Looks"
+    },
+    {
+      "value": "3",
+      "label": "Servicewelten"
+    }
+  ],
+  "style": "Vogue-artiges Editorial in Rosé: schwarzer Grund, Akzent Altrosa (#d4a4a4) für Linien, Eyebrows und Preise; leichte Cormorant-Garamond-Serifen, Manrope-Text, Monospace für Look-Nummern. Hero geteilt: links Bild (7 Spalten, mit Parallax), rechts Text auf Schwarz. Kapitel-Eyebrows „Kapitel I · Disziplinen\", „Kapitel II · Lookbook\", „Kapitel III · Termin\". Press-Strip mit Magazin-Namen (VOGUE Deutschland, Harper's Bazaar, ELLE, InStyle, Glamour) als Text-Logos.",
+  "copy": {
+    "hero": {
+      "eyebrow": "Salon-Beispiel · Hair · Skin · Studio",
+      "headline": [
+        "Editorial.",
+        "Empirisch.",
+        "Eigenwillig."
+      ],
+      "text": "Ein Salon, der wie ein Magazin denkt. Hair, Skin, Studio — in der Karlsruher Südstadt seit 2017.",
+      "cta": "Termin buchen",
+      "secondary": "Leistungen ansehen"
+    },
+    "press": [
+      "VOGUE Deutschland",
+      "Harper's Bazaar",
+      "ELLE",
+      "InStyle",
+      "Glamour"
+    ],
+    "services": {
+      "eyebrow": "Kapitel I · Disziplinen",
+      "headline": "Vier Studios. Eine Handschrift.",
+      "text": "Wir mischen jede Farbe selbst, prüfen jeden Schnitt am Spiegel und beraten, bevor wir den Pinsel überhaupt anfassen.",
+      "items": [
+        {
+          "title": "Color Editorial",
+          "text": "Balayage, Lowlights, Pre-Pigmentation. Ab €180.",
+          "image": "service-color-editorial.jpg"
+        },
+        {
+          "title": "Cut & Form",
+          "text": "Diagnose, Shaping, Pflege. Ab €95.",
+          "image": "service-cut-and-form.jpg"
+        },
+        {
+          "title": "Studio Make-up",
+          "text": "Editorial, Bridal, Cover. Ab €140.",
+          "image": "service-studio-make-up.jpg"
+        },
+        {
+          "title": "Skin Atelier",
+          "text": "Microneedling, HydraFacial, Peelings. Ab €165.",
+          "image": "service-skin-atelier.jpg"
+        }
+      ]
+    },
+    "lookbook": {
+      "eyebrow": "Kapitel II · Lookbook",
+      "headline": "Unzählige Looks.",
+      "text": "Eine Auswahl aus dem Atelier — alle Looks im Salon rekonstruierbar.",
+      "labels": [
+        "Look 01",
+        "Look 02",
+        "Look 03",
+        "Look 04",
+        "Look 05",
+        "Look 06"
+      ]
+    },
+    "testimonial": {
+      "quote": "Ich war beim Shoot. Sie waren so präzise wie unsere Stylistin aus Paris — nur ehrlicher.",
+      "source": "— Editor, VOGUE Deutschland"
+    },
+    "booking": {
+      "eyebrow": "Kapitel III · Termin",
+      "headline": "Schenken Sie sich Nachmittag.",
+      "cta": "Termin buchen"
+    }
+  },
+  "images": [
+    {
+      "file": "karte-salon.jpg",
+      "alt": "Editoriales Beauty- und Salonmotiv",
+      "role": "card",
+      "section": "Vorschaukarte auf der Landingpage; großes Format des Service-Bilds „Cut & Form\", geeignet als Open-Graph-Bild",
+      "bytes": 352570,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/karte-salon.jpg",
+      "source": "/demo-samples/local-assets/photo-1562322140-8baeececf3df-q80-w2000-59a878cc7e.jpg"
+    },
+    {
+      "file": "hero-editorial-portrait.jpg",
+      "alt": "Editorial portrait",
+      "role": "hero",
+      "section": "Split-Hero, linke Hälfte (7 Spalten) mit Parallax; zugleich das Teaser-Bild der Landingpage",
+      "bytes": 282703,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/hero-editorial-portrait.jpg",
+      "source": "/demo-samples/local-assets/photo-1522337360788-8b13dee7a37e-q85-w2000-fa0c61c437.jpg"
+    },
+    {
+      "file": "service-color-editorial.jpg",
+      "alt": "Color Editorial · Balayage und Lowlights",
+      "role": "service",
+      "section": "Service-Card 1 „Color Editorial\"",
+      "bytes": 368641,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/service-color-editorial.jpg",
+      "source": "/demo-samples/local-assets/photo-1605497788044-5a32c7078486-q85-w1400-1e8ffca2b1.jpg"
+    },
+    {
+      "file": "service-cut-and-form.jpg",
+      "alt": "Cut & Form · Schnitt und Pflege",
+      "role": "service",
+      "section": "Service-Card 2 „Cut & Form\"",
+      "bytes": 210090,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/service-cut-and-form.jpg",
+      "source": "/demo-samples/local-assets/photo-1562322140-8baeececf3df-q85-w1400-8e387cae78.jpg"
+    },
+    {
+      "file": "service-studio-make-up.jpg",
+      "alt": "Studio Make-up · Editorial und Bridal",
+      "role": "service",
+      "section": "Service-Card 3 „Studio Make-up\"",
+      "bytes": 170708,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/service-studio-make-up.jpg",
+      "source": "/demo-samples/local-assets/photo-1487412947147-5cebf100ffc2-q85-w1400-2f24d6f19c.jpg"
+    },
+    {
+      "file": "service-skin-atelier.jpg",
+      "alt": "Skin Atelier · Microneedling und Peelings",
+      "role": "service",
+      "section": "Service-Card 4 „Skin Atelier\"",
+      "bytes": 209515,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/service-skin-atelier.jpg",
+      "source": "/demo-samples/local-assets/photo-1570172619644-dfd03ed5d881-q85-w1400-3ffc520183.jpg"
+    },
+    {
+      "file": "look-01.jpg",
+      "alt": "Look 01 aus dem Lookbook",
+      "role": "lookbook",
+      "section": "Lookbook-Galerie, Bild 1",
+      "bytes": 568031,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/look-01.jpg",
+      "source": "/demo-samples/local-assets/photo-1488426862026-3ee34a7d66df-q85-w1400-5c2b7b7d59.jpg"
+    },
+    {
+      "file": "look-02.jpg",
+      "alt": "Look 02 aus dem Lookbook",
+      "role": "lookbook",
+      "section": "Lookbook-Galerie, Bild 2",
+      "bytes": 347909,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/look-02.jpg",
+      "source": "/demo-samples/local-assets/photo-1496360166961-10a51d5f367a-q85-w1400-acc06b9d06.jpg"
+    },
+    {
+      "file": "look-03.jpg",
+      "alt": "Look 03 aus dem Lookbook",
+      "role": "lookbook",
+      "section": "Lookbook-Galerie, Bild 3",
+      "bytes": 434152,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/look-03.jpg",
+      "source": "/demo-samples/local-assets/photo-1531123897727-8f129e1688ce-q85-w1400-013c29fc44.jpg"
+    },
+    {
+      "file": "look-04.jpg",
+      "alt": "Look 04 aus dem Lookbook",
+      "role": "lookbook",
+      "section": "Lookbook-Galerie, Bild 4",
+      "bytes": 467924,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/look-04.jpg",
+      "source": "/demo-samples/local-assets/photo-1492106087820-71f1a00d2b11-q85-w1400-dc6c93185d.jpg"
+    },
+    {
+      "file": "look-05.jpg",
+      "alt": "Look 05 aus dem Lookbook",
+      "role": "lookbook",
+      "section": "Lookbook-Galerie, Bild 5",
+      "bytes": 181643,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/look-05.jpg",
+      "source": "/demo-samples/local-assets/photo-1485875437342-9b39470b3d95-q85-w1400-556494e330.jpg"
+    },
+    {
+      "file": "look-06.jpg",
+      "alt": "Look 06 aus dem Lookbook",
+      "role": "lookbook",
+      "section": "Lookbook-Galerie, Bild 6",
+      "bytes": 362645,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/look-06.jpg",
+      "source": "/demo-samples/local-assets/photo-1503104834685-7205e8607eb9-q85-w1400-8450d8d89c.jpg"
+    }
+  ],
+  "preview": {
+    "url": "https://anticipater.com/solutions/cms-ai/website-erstellen-lassen-karlsruhe/demo/beauty"
+  },
+  "readme": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/README.md",
+  "workspaceDir": ".devshot/templates/beauty",
+  "files": [
+    {
+      "path": ".devshot/templates/beauty/manifest.json",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/manifest.json",
+      "type": "application/json",
+      "role": "manifest"
+    },
+    {
+      "path": ".devshot/templates/beauty/README.md",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/README.md",
+      "type": "text/markdown",
+      "role": "readme"
+    },
+    {
+      "path": ".devshot/templates/beauty/karte-salon.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/karte-salon.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/beauty/hero-editorial-portrait.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/hero-editorial-portrait.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/beauty/service-color-editorial.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/service-color-editorial.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/beauty/service-cut-and-form.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/service-cut-and-form.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/beauty/service-studio-make-up.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/service-studio-make-up.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/beauty/service-skin-atelier.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/service-skin-atelier.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/beauty/look-01.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/look-01.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/beauty/look-02.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/look-02.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/beauty/look-03.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/look-03.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/beauty/look-04.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/look-04.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/beauty/look-05.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/look-05.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/beauty/look-06.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/beauty/look-06.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    }
+  ],
+  "usage": [
+    "Alle Dateien aus files[] einzeln per download_url an ihren path im Workspace laden (.devshot/templates/beauty/), keine Archive.",
+    "README.md ist die Bauanleitung: Sektionen in Reihenfolge, Stil, welches Bild wohin. copy enthaelt die echten Texte des Beispiels.",
+    "Bilder nach public/images/<slug>/ kopieren und die Website als Next.js-App (App Router, Tailwind) nachbauen; danach an das Unternehmen des Nutzers anpassen."
+  ]
+}

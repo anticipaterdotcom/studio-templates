@@ -1,0 +1,336 @@
+{
+  "version": 1,
+  "id": "cms/handwerk",
+  "kind": "cms",
+  "slug": "handwerk",
+  "stack": "next",
+  "name": "Handwerks-Beispiel",
+  "label": "Handwerk",
+  "code": "S-02",
+  "typeTag": "Industrial · Manufaktur",
+  "tagline": "Material. Maß. Meisterschaft.",
+  "description": "Digitale Visitenkarte für Schreinereien, Metallbauer und Manufakturen mit Werkstatt-Mosaik.",
+  "pitch": "Industrial-Premium. Fette Display-Typo, Werkstatt-Galerie wie ein Foto-Essay, transparenter Prozess vom Entwurf bis zur Montage.",
+  "result": "Werkstatt-Mosaik & Prozessstrecke",
+  "accent": "#b87333",
+  "accentSoft": "rgba(184,115,51,0.18)",
+  "theme": {
+    "mode": "dark",
+    "background": "#0a0a0b",
+    "surface": "#111114",
+    "surfaceRaised": "#15151a",
+    "ink": "#f4f4f5",
+    "inkDim": "#a8a8ad",
+    "inkMute": "#6b6b72",
+    "line": "rgba(255,255,255,0.08)",
+    "lineStrong": "rgba(255,255,255,0.16)",
+    "eyebrow": "text-[11px] tracking-[0.32em] uppercase",
+    "container": "max-w-[1440px] px-6 lg:px-10",
+    "sectionPadding": "py-32",
+    "heroHeight": "min-h-[100vh]"
+  },
+  "fonts": {
+    "display": {
+      "family": "Manrope",
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [],
+      "role": "display",
+      "cssClass": "font-display",
+      "letterSpacing": "-0.04em",
+      "usage": "Hero-Headline dreizeilig, uppercase, font-extrabold/black, sehr eng (tracking -0.04em); Sektionstitel uppercase extrabold; große Zahlen"
+    },
+    "body": {
+      "family": "Manrope",
+      "weights": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [],
+      "role": "body",
+      "usage": "Fließtext, Labels, Eyebrows (uppercase, 11px, letter-spacing 0.32em)"
+    },
+    "accent": {
+      "family": "Playfair Display",
+      "weights": [
+        400,
+        500,
+        600,
+        700,
+        800
+      ],
+      "italic": [
+        400
+      ],
+      "role": "accent",
+      "cssClass": "font-classic",
+      "letterSpacing": "-0.015em",
+      "usage": "Kursive Akzentwörter und das Kundenzitat"
+    },
+    "source": "public/demo-samples/static/css/local-fonts.css (lokale @font-face, hier nur Familien und Gewichte)"
+  },
+  "sections": [
+    "Industrial Hero",
+    "Disziplinen-Grid",
+    "Werkstatt-Mosaik",
+    "Prozess"
+  ],
+  "highlights": [
+    "Werkstatt-Mosaik",
+    "Prozess in 4 Schritten",
+    "25 Jahre Garantie-Stempel"
+  ],
+  "stats": [
+    {
+      "value": "117",
+      "label": "Jahre Handwerk"
+    },
+    {
+      "value": "4",
+      "label": "Prozessschritte"
+    },
+    {
+      "value": "25",
+      "label": "Jahre Garantie"
+    }
+  ],
+  "style": "Industrial-Premium: schwarzer Grund, kupferfarbene Akzente (#b87333) für Linien, Nummern und Eyebrows, fette Manrope-Versalien als Headlines, Werkstattfotos mit hartem Kino-Look und Verlauf von links. Ein laufender Material-Ticker („Eiche · Nussbaum · Esche · Kirsche\", „Edelstahl · Messing · Bronze\", „CNC · Handarbeit · 1908 – heute\", „Karlsruhe · Baden · Schwarzwald\"). Sektionen mit Eyebrows „Werk · 01\" bis „Werk · 03\".",
+  "copy": {
+    "hero": {
+      "eyebrow": "Handwerks-Beispiel · Anno 1908",
+      "headline": [
+        "Material.",
+        "Maß.",
+        "Meister."
+      ],
+      "text": "Schreinerei in vierter Generation. Wir bauen, was Architekten zeichnen — und was Architekten nicht zeichnen können.",
+      "cta": "Leistungen",
+      "secondary": "Werkstatt besichtigen",
+      "stats": [
+        {
+          "value": "117",
+          "label": "Jahre Handwerk"
+        },
+        {
+          "value": "4",
+          "label": "Generationen"
+        }
+      ]
+    },
+    "ticker": [
+      "Eiche · Nussbaum · Esche · Kirsche",
+      "Edelstahl · Messing · Bronze",
+      "CNC · Handarbeit · 1908 – heute",
+      "Karlsruhe · Baden · Schwarzwald"
+    ],
+    "services": {
+      "eyebrow": "Werk · 01",
+      "headline": "Vier Disziplinen.",
+      "text": "Jedes Stück, das die Werkstatt verlässt, trägt das gleiche Siegel. Egal ob 80 Zentimeter oder 80 Meter Yacht-Innenausbau.",
+      "items": [
+        {
+          "code": "01",
+          "name": "Möbelbau nach Maß",
+          "blurb": "Massivholz, Furnier, Edelstahl. Vom Entwurf bis zur Aufstellung — eine Hand."
+        },
+        {
+          "code": "02",
+          "name": "Innenausbau",
+          "blurb": "Küchen, Treppen, Einbauten. Für Architekten und Bauherren mit Anspruch."
+        },
+        {
+          "code": "03",
+          "name": "Restaurierung",
+          "blurb": "Antike Möbel, Denkmalschutz. Mit Geduld, Lupe und der richtigen Politur."
+        },
+        {
+          "code": "04",
+          "name": "Yacht & Interieur",
+          "blurb": "Schiffsausbau, mobile Wohnkonzepte. Maß und Material auf Millimeter."
+        }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Werk · 02",
+      "headline": "In der Werkstatt."
+    },
+    "process": {
+      "eyebrow": "Werk · 03",
+      "headline": "Der Weg vom Wort zum Werk.",
+      "steps": [
+        {
+          "n": "I",
+          "title": "Beratung",
+          "text": "Vor Ort, mit Skizze und Maßband."
+        },
+        {
+          "n": "II",
+          "title": "Entwurf",
+          "text": "3D-Visualisierung, Materialauswahl."
+        },
+        {
+          "n": "III",
+          "title": "Werkstatt",
+          "text": "Bau in Karlsruhe, Bilder-Updates."
+        },
+        {
+          "n": "IV",
+          "title": "Montage",
+          "text": "Lieferung, Aufstellung, 25 J. Garantie."
+        }
+      ]
+    },
+    "testimonial": {
+      "quote": "Wir hatten Architekten aus drei Ländern. Die Küche kam aus Karlsruhe. Es war die richtige Entscheidung.",
+      "source": "Familie Reinhardt · Privatvilla Baden-Baden · 2024"
+    },
+    "cta": {
+      "eyebrow": "Auftrag",
+      "headline": "Schreiben Sie uns",
+      "cta": "Werkstatt anrufen"
+    }
+  },
+  "images": [
+    {
+      "file": "karte-werkstatt.jpg",
+      "alt": "Werkstatt mit Holz und Werkzeugen",
+      "role": "card",
+      "section": "Vorschaukarte auf der Landingpage; gleiches Motiv wie der Hero in anderer Kompression",
+      "bytes": 423413,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/karte-werkstatt.jpg",
+      "source": "/demo-samples/local-assets/photo-1503602642458-232111445657-q80-w2400-401cd61fa2.jpg"
+    },
+    {
+      "file": "hero-schreinerei.jpg",
+      "alt": "Schreinerei",
+      "role": "hero",
+      "section": "Industrial Hero, vollflächig, Verlauf von links (Text links lesbar)",
+      "bytes": 511719,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/hero-schreinerei.jpg",
+      "source": "/demo-samples/local-assets/photo-1503602642458-232111445657-q85-w2400-f0505213cc.jpg"
+    },
+    {
+      "file": "teaser-massivholz.jpg",
+      "alt": "Massivholz-Werkstück aus Eiche",
+      "role": "teaser",
+      "section": "Teaser der Landingpage; großes Format des Mosaik-Bilds „Massivholz · Eiche\", geeignet als Open-Graph-Bild",
+      "bytes": 341975,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/teaser-massivholz.jpg",
+      "source": "/demo-samples/local-assets/photo-1530124566582-a618bc2615dc-q85-w2000-4439b25dcf.jpg"
+    },
+    {
+      "file": "mosaik-hobelbank.jpg",
+      "alt": "Hobelbank",
+      "role": "gallery",
+      "section": "Werkstatt-Mosaik, Kachel 1 (Spalte 5, 4/5), Label „Hobelbank\"",
+      "bytes": 346510,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/mosaik-hobelbank.jpg",
+      "source": "/demo-samples/local-assets/photo-1601058268499-e52658b8bb88-q85-w1400-716d8266c6.jpg"
+    },
+    {
+      "file": "mosaik-massivholz-eiche.jpg",
+      "alt": "Massivholz · Eiche",
+      "role": "gallery",
+      "section": "Werkstatt-Mosaik, Kachel 2 (Spalte 7, 4/3), Label „Massivholz · Eiche\"",
+      "bytes": 187607,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/mosaik-massivholz-eiche.jpg",
+      "source": "/demo-samples/local-assets/photo-1530124566582-a618bc2615dc-q85-w1400-8afed0e499.jpg"
+    },
+    {
+      "file": "mosaik-spaene-detail.jpg",
+      "alt": "Späne · Detail",
+      "role": "gallery",
+      "section": "Werkstatt-Mosaik, Kachel 3 (Spalte 7, 4/3), Label „Späne · Detail\"",
+      "bytes": 220374,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/mosaik-spaene-detail.jpg",
+      "source": "/demo-samples/local-assets/photo-1416339158484-9637228cc908-q85-w1400-d288f8c0f3.jpg"
+    },
+    {
+      "file": "mosaik-politur.jpg",
+      "alt": "Politur",
+      "role": "gallery",
+      "section": "Werkstatt-Mosaik, Kachel 4 (Spalte 5, 4/5), Label „Politur\"",
+      "bytes": 98934,
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/mosaik-politur.jpg",
+      "source": "/demo-samples/local-assets/photo-1581235720704-06d3acfcb36f-q85-w1400-4ad23867c6.jpg"
+    }
+  ],
+  "preview": {
+    "url": "https://anticipater.com/solutions/cms-ai/website-erstellen-lassen-karlsruhe/demo/handwerk"
+  },
+  "readme": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/README.md",
+  "workspaceDir": ".devshot/templates/handwerk",
+  "files": [
+    {
+      "path": ".devshot/templates/handwerk/manifest.json",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/manifest.json",
+      "type": "application/json",
+      "role": "manifest"
+    },
+    {
+      "path": ".devshot/templates/handwerk/README.md",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/README.md",
+      "type": "text/markdown",
+      "role": "readme"
+    },
+    {
+      "path": ".devshot/templates/handwerk/karte-werkstatt.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/karte-werkstatt.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/handwerk/hero-schreinerei.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/hero-schreinerei.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/handwerk/teaser-massivholz.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/teaser-massivholz.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/handwerk/mosaik-hobelbank.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/mosaik-hobelbank.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/handwerk/mosaik-massivholz-eiche.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/mosaik-massivholz-eiche.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/handwerk/mosaik-spaene-detail.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/mosaik-spaene-detail.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    },
+    {
+      "path": ".devshot/templates/handwerk/mosaik-politur.jpg",
+      "url": "https://raw.githubusercontent.com/anticipaterdotcom/studio-templates/main/handwerk/mosaik-politur.jpg",
+      "type": "image/jpeg",
+      "role": "image"
+    }
+  ],
+  "usage": [
+    "Alle Dateien aus files[] einzeln per download_url an ihren path im Workspace laden (.devshot/templates/handwerk/), keine Archive.",
+    "README.md ist die Bauanleitung: Sektionen in Reihenfolge, Stil, welches Bild wohin. copy enthaelt die echten Texte des Beispiels.",
+    "Bilder nach public/images/<slug>/ kopieren und die Website als Next.js-App (App Router, Tailwind) nachbauen; danach an das Unternehmen des Nutzers anpassen."
+  ]
+}
